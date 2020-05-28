@@ -54,7 +54,7 @@ Make sure you select the right board, port etc. in your ArduinoIDE
     - Upload the data - "Tools" --> "ESP8266 LittleFS Data Upload"
     - After uploading the data, upload the sketch
     - you should be able to access your webpanel now
-5) (ESP8266 No.2) Open the [sensorServer.ino](/sensorServer/SensorServer.ino) sketch
+5) (ESP8266 No.2) Open the [sensorServer.ino](/sensorServer/sensorServer.ino) sketch
    - set the wifi parameters - make sure to use the ip you used in the [index.html](/managementServer/data/index.html)
    - setup your switch/relay - there are comments in the code to guide you
    - upload the sketch to your arduino
