@@ -1,0 +1,84 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="manifest" href="manifest.webmanifest">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <!--
+        WebApp-Icon https://www.flaticon.com/authors/freepik" 
+        Make sure the arduino-sketch is compatible - https://github.com/fredEOF/arduinoWebpanel 
+    -->
+</head>
+
+<body>
+    <div class="dashboard">
+        <div class="spacer">
+            <div class="container">
+                <h2>Control Panel</h2>
+            </div>
+        </div>
+
+        <!-- Add as many as you want, change the ID and Name-->
+        <div class="dashcontainer">
+            <div class="container">
+                <table>
+                    <tr>
+                        <td>
+                            <span>Vacuum cleaner</span>
+                        </td>
+                        <td>
+                            <label class="switch">
+                                <input type="checkbox" id="192.168.10.111" class="sensor" onchange="changeState(this)">
+                                <span class="slider round"></span>
+                            </label>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <!-- this is one container -->
+
+        <div class="dashcontainer">
+            <div class="container">
+                <table>
+                    <tr>
+                        <td>
+                            <span>Light</span>
+                        </td>
+                        <td>
+                            <label class="switch">
+                                <input type="checkbox" id="192.168.10.77" class="sensor" onchange="changeState(this)">
+                                <span class="slider round"></span>
+                            </label>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="dashcontainer">
+            <div class="container">
+                <table>
+                    <tr>
+                        <td>
+                            <span>Powerplug</span>
+                        </td>
+                        <td>
+                            <label class="switch">
+                                <input type="checkbox" id="192.168.10.99" class="sensor" onchange="changeState(this)">
+                                <span class="slider round"></span>
+                            </label>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Script to check if sensors are online/offline -->
+    <script src="checkstatus.js"></script>
+    <script type="text/javascript">
+        checkStatus();
+    </script>
+</body>

@@ -1,0 +1,17 @@
+﻿{
+  "short_name": "Webpanel",
+  "name": "Webpanel",
+  "background-color": "Gray",
+  "theme_color": "Gray",
+  "display": "standalone",
+  "orientation": "any",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "./pcb.png",
+      "type": "image/png",
+      "sizes": "256x256",
+      "purpose": "any maskable"
+    }
+  ]
+}
