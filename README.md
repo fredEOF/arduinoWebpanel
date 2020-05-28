@@ -9,7 +9,8 @@ Further informations of the used [LittleFS - Filesystem](https://github.com/earl
 - LittleFS Data Uploader
 
 # Functionalities
-<img style="float: right;" src="https://media.giphy.com/media/L3oiSAxIGtFkT5pFhj/giphy.gif">
+<img align="right" border="2px" src="https://media.giphy.com/media/L3oiSAxIGtFkT5pFhj/giphy.gif" style="border-color:Gray; border:2px; border-style:solid; border-radius:2px;">
+
 The gif tries to show every functionality. Down below is a short and long version of the features.
 
 __Short__
